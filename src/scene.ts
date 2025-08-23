@@ -35,7 +35,7 @@ export function createScene(renderer: WebGLRenderer) {
 
   let koalaModel: Object3D;
 
-  gltfLoader.load("../assets/models/purussaurus.glb", (gltf: GLTF) => {
+  gltfLoader.load("../assets/models/urna_001.glb", (gltf: GLTF) => {
     koalaModel = gltf.scene.children[0];
   });
 
